@@ -1,0 +1,70 @@
+Networking Startup Idea
+What is it?
+An app that stores a database of all the people in your life. Not like LinkedIn, which is just for professional usage, or Instagram and other social media platforms that revolve around posts and content. Instead, the app populates a database of every person in your life that you are connected to (this can be from scraping social media, emails, contacts, school database? who knows, as well as self-population). Once you have properly filled out your network, the app then provides a variety of functionalities. These can range from subdividing your network based on where you know them from, firm they work at, career field, location they live in, location they are from, type of personality, mutual friends, general information (address, contact info), memories in common, sports, food choice, relationship status, etc. On top of this, you would then be able to add all of the information you want to each person which can include the last time you met them, the name of their dog, their favorite type of food, colleagues of theirs, inside jokes, birthday, special milestones, etc. (ideally this will all get automated through AI which can be through text message scraping, calendar scraping, email scraping, etc.). The app can then remind you when you haven’t spoken to someone in x amount of time, reach out for a birthday, client to prospect, catch up for a meal, etc. (hopefully the app will even be able to offer the ability to write out some of those messages for you using generative models that can even be tailored or approved by you). The goal would be for as many of these people as possible to create accounts (Otherwise the profile will still exist, it just won’t be connected to a user which is also fine) so that the app would serve almost like a web of nodes and connections, allowing people to truly maximize how much they benefit from their network. 
+
+Why launch in Corporate?
+This information is invaluable as it will not only allow you to keep up with everyone in your life, but, more importantly, it will provide you with the ability to keep in touch, remember all those people in your life, and stay on top of your real-world relationships.It would be especially applicable to professionals working in client-facing industries like wealth management and real estate brokers. 
+
+How do we make Money?
+
+Competitive Landscape:
+
+Moat and Defensibility:
+
+
+
+MVP Buildout:
+
+Essential fields - Name, organization, email, phone number, date of birth, Connection to user, things to remember
+
+Onboarding - Goal is to reduce friction:
+For each new contact added, can scrape LinkedIn to autofill Job/title, previous work experience, and education (these are all things that could spark conversation)
+In the future: Get consent to scrape iMessage, Gmail, etc. 
+
+
+
+Ideas for expansion:
+
+Six Degrees of Separation:
+Based on the concept of the ‘Six Degrees of Separation,’ the app could one day employ a feature (could be part of a paid version) that allows you to use your network to find or access people you want to reach. It would have two main objectives/facets:
+If you want to reach Michael Jordan and do not know how, you could scan your network to see who is connected to him and try to leverage that connection.
+If you are planning on applying to a firm and only have weak connections there, you could scan to see who has connections that work at that firm, and then, if a good friend or relative, for example, has a strong connection there, you could leverage that path. 
+Visualize network as a graph/diagram: https://www.youtube.com/watch?v=se2u5RyGaNE
+
+Rings of Friendship:
+Autoimport contacts from phone contacts, Instagram, LinkedIn
+The app can even allow you to rank the people in your life based on degree of closeness, almost link rings of connection, and alter reminders and goals accordingly.
+
+Event Organizing:
+App can be linked with even organizers (Posh/Partiful) to self-select everyone you would want to invite to the event, automate the creation of an event page based on that information, and use the platform to easily determine event list, allow specific users +1’s, and expedite the process. 
+Integration with partyful, posh, and other event planning websites to allow for easy selection of who the user wants to invite to their party, letting them easily send a text/email blast to those selected
+Example 1: Randy just graduated from Columbia University and wants to invite all his friends who just graduated and work in finance. He uses the natural language processing feature by searching “friends who graduated columbia university and now work in finance”, because LinkedIn data is public, we can easily find everyone who just graduated and now works in finance, and can use the NLP to help with the inputs for what we are web scraping for.
+
+Career Roadmap:
+A feature that allows you to put your dream job, career roadmap, goals, etc., and make it available to your network to see. 
+
+Tailored Meeting Reminders and Information:
+Would have access to calendar, and before each meeting could automatically send you an email with all the information about the person you are speaking to
+
+Meeting Scanner:
+Can sit in on meetings and in real time process any details to add to the “knowledge bank” of the contact. 
+Example 1: Bill and Bob are on zoom/teams/slack talking about a new deal. Bob mentions that his wife is expecting in 2 months. The software automatically stores this information and sets a reminder that will be sent to Bill in 2 months to congratulate Bob on the newborn. 
+Example 2: Bill and Bob are on Zoom/Teams/Slack talking about a new deal. Bob mentions he loves eating at Halal trucks, but professionally, everyone only wants to eat at high-end places. The software automatically stores this information in “food preferences” and suggests it as an option for their next meeting.
+
+In-app Search Feature:
+Integrate a search bar with natural language processing to parse through all information for relevant searches
+Example 1: Jack wants to throw a party for all of his connections who are lawyers, or who have previously worked at a law firm. He types “law” into the search bar, and the search finds all connections who have worked in law
+
+General Reminders:
+Provide reminders for anything and everything that you deem fit or the algorithm deems could be applicable. I.e., birthdays, catch-ups, new job, home move, new kid, and general catch-up reminders.
+Reminders: “You haven’t texted Adam in 6 months”
+
+Embedded Semantic Memory:
+Example: Who did I go to Miami with?
+
+Surveys:
+Surveys:
+A survey upon joining, when building your account where every person inputs their career path and career goals, favorite restaurant 
+After completing the filling out of your network, you can take a survey for past parts of your life divided by category to see if you omitted anyone u know:
+Did you forget someone from summer camp, from your building, someone’s grandparent
+Since people hate spending hours uploading information, there could be a feature where every day when you open the app it asks you to complete 3 people’s information so that you spread out the process. 

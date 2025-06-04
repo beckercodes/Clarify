@@ -1,0 +1,122 @@
+Objective:
+Design and develop the frontend of a networking application that serves as a personal relationship manager for corporate professionals in client-facing roles. The application should allow users to store and manage information about their contacts, facilitating meaningful interactions and relationship building.
+
+Design Philosophy:
+
+Simplicity: Adopt a minimalist design approach to reduce cognitive load and enhance usability.
+
+Consistency: Maintain uniformity in design elements and patterns throughout the application.
+
+Clarity: Ensure that all information is presented clearly, with a focus on readability and intuitive navigation.
+
+Responsiveness: Design should be responsive and function well on various screen sizes.
+clarify.ai
+learn.microsoft.com
+
+Core Features and UI Components:
+
+Dashboard:
+
+Layout: A clean, two-column layout with a sidebar for navigation and a main content area.
+
+Contact Overview: Display a list or grid of contacts with key information:
+
+Name
+
+Organization
+
+Last Interaction Date
+
+Search and Filters: Implement a search bar with filters for:
+
+Organization
+
+Location
+
+Tags
+
+Custom Fields
+
+Reminders and Notifications: Show upcoming birthdays, follow-up reminders, and other alerts in a dedicated section.
+
+Contact Profile Page:
+
+Basic Information: Display the following fields:
+
+Name
+
+Organization
+
+Email
+
+Phone Number
+
+Date of Birth
+
+Connection Details: Describe how the user knows the contact and any mutual connections.
+
+Personal Notes: Allow users to add notes such as "Met at conference," "Loves Italian food," etc.
+
+Interaction History: Log past interactions, meetings, and communications in a chronological timeline.
+
+Customization: Enable users to add custom fields to tailor the contact profile to their needs.
+medium.com
++3
+en.wikipedia.org
++3
+dunetech.co.uk
++3
+learn.microsoft.com
++2
+clarify.ai
++2
+dunetech.co.uk
++2
+
+Network Visualization:
+
+Graph View: Create an interactive network graph showing connections between contacts.
+
+Filters: Allow users to filter the graph by:
+
+Organization
+
+Location
+
+Tags
+
+Navigation: Implement zoom and pan functionalities for easy navigation of the network graph.
+
+Event Planning Integration:
+
+Event Creation: Provide an interface to create events and select invitees from the contact list.
+
+Integration with Platforms: Include options to integrate with event platforms like Posh or Partiful.
+
+RSVP Tracking: Monitor who has accepted or declined invitations in real-time.
+
+Settings and Preferences:
+
+Notification Settings: Allow users to customize reminders and alerts.
+
+Data Management: Provide options to export or delete data.
+
+Stylistic and Design Choices:
+
+Color Scheme: Use a neutral color palette with accent colors for interactive elements to maintain a professional appearance.
+
+Typography: Select clean, sans-serif fonts for readability.
+
+Icons and Imagery: Utilize simple, intuitive icons to represent actions and categories.
+
+Spacing and Layout: Ensure adequate white space between elements to prevent clutter and enhance readability.
+
+Microinteractions: Incorporate subtle animations for actions like adding a contact or setting a reminder to enhance user experience.
+
+Additional Notes:
+
+Empty States: Design informative empty states that guide users on how to populate their network.
+
+Feedback Mechanisms: Provide users with immediate feedback after actions, such as confirmation messages after saving a contact.
+
+Accessibility: Ensure the app is accessible to users with disabilities, following WCAG guidelines.

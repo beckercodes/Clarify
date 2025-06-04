@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Networking Application - Manage your professional contacts and relationships" />
+    <title>Networking Application</title>
+    <!-- Preload critical assets -->
+    <link rel="preload" href="/index.css" as="style" />
+    <link rel="preload" href="/App.css" as="style" />
+    
+    <!-- Load styles -->
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="/App.css" />
+    
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    
+    <!-- Add Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Add polyfills for older browsers -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    
+    <!-- Add D3.js for network visualization -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </body>
+</html> 
